@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+body {
+  background: url("/bg.png") no-repeat center center fixed;
+  background-size: cover;
+  color: white; /* make text white by default */
+}
+
