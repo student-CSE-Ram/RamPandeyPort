@@ -8,16 +8,16 @@ function Project() {
       title: "EntertainMe",
       description:
         "An entertainment-based MERN stack app featuring Bollywood, Hollywood, Comedy Shows, and Cricket highlights.",
-      ghLink: "https://github.com/yourusername/entertainme",
-      demoLink: "https://entertainme.vercel.app",
+      ghLink: "#",
+      demoLink: "#",
     },
     {
       imgPath: "/Projects/Gymnasio.png",
       title: "Gym Management System",
       description:
         "A management system for gyms with member registration, attendance, and payments.",
-      ghLink: "https://github.com/yourusername/gym-management",
-      demoLink: "https://gym-app.vercel.app",
+      ghLink: "#",
+      demoLink: "#",
     },
     {
       imgPath: "/Projects/EduCare.png",
