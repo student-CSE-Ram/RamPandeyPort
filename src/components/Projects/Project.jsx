@@ -1,18 +1,10 @@
 import React from "react";
 import ProjectCards from "./ProjectCards";
 
-// Import your project images
-import entertainMeImg from "/src/Assets/Projects/EntertainMe.png";
-import gymImg from "/src/Assets/Projects/Gymnasio.png";
-import EduCare from "/src/Assets/Projects/EduCare.png";
-import Chatify from "/src/Assets/Projects/chatify.png";
-import conCurr from "/src/Assets/Projects/Concurr.png";
-import weatherImg from "/src/Assets/Projects/WeatherApp.png";
-
 function Project() {
   const projects = [
     {
-      imgPath: entertainMeImg,
+      imgPath: "/Projects/EntertainMe.png",
       title: "EntertainMe",
       description:
         "An entertainment-based MERN stack app featuring Bollywood, Hollywood, Comedy Shows, and Cricket highlights.",
@@ -20,7 +12,7 @@ function Project() {
       demoLink: "https://entertainme.vercel.app",
     },
     {
-      imgPath: gymImg,
+      imgPath: "/Projects/Gymnasio.png",
       title: "Gym Management System",
       description:
         "A management system for gyms with member registration, attendance, and payments.",
@@ -28,28 +20,28 @@ function Project() {
       demoLink: "https://gym-app.vercel.app",
     },
     {
-      imgPath: EduCare,
+      imgPath: "/Projects/EduCare.png",
       title: "SMS Portfolio",
       description: "A portfolio website for a student management system project.",
       ghLink: "#",
       demoLink: "#",
     },
     {
-      imgPath: Chatify,
+      imgPath: "/Projects/chatify.png",
       title: "A Chat Application",
       description: "A real-time chat application using Socket.io and React.",
       ghLink: "#",
       demoLink: "#",
     },
     {
-      imgPath: conCurr,
+      imgPath: "/Projects/Concurr.png",
       title: "Currency Converter",
       description: "A web app to convert currencies using real-time exchange rates.",
       ghLink: "#",
       demoLink: "#",
     },
     {
-      imgPath: weatherImg,
+      imgPath: "/Projects/WeatherApp.png",
       title: "Weather App",
       description: "A weather forecasting app using OpenWeatherMap API.",
       ghLink: "#",
