@@ -1,6 +1,4 @@
 import React from "react";
-import homeLogo from "../../assets/home-bg.jpg"; // background
-import homemain from "../../assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -10,7 +8,7 @@ function Home() {
     <section
       className="relative min-h-screen w-full text-white"
       style={{
-        backgroundImage: `url(${homeLogo})`,
+        backgroundImage: `url(/home-bg.jpg)`, // from public/
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -44,7 +42,7 @@ function Home() {
           {/* Right Side - Illustration */}
           <div className="flex justify-center md:justify-end">
             <img
-              src={homemain}
+              src="/home-main.svg" // from public/
               alt="Illustration"
               className="max-h-[30rem] md:max-h-[35rem] w-full"
             />

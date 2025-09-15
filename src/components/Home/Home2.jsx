@@ -1,6 +1,5 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
-import myImg from "../../assets/avtar3.png";
 import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -44,7 +43,12 @@ function Home2() {
           {/* Avatar */}
           <div className="flex justify-center">
             <Tilt>
-              <img src={myImg} alt="avatar" className="w-72 rounded-full md:w-80" />
+              {/* use public/avtar3.png */}
+              <img
+                src="/avtar3.png"
+                alt="avatar"
+                className="w-72 rounded-full md:w-80"
+              />
             </Tilt>
           </div>
         </div>

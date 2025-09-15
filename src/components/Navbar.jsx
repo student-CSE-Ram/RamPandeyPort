@@ -8,7 +8,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import logoRam4 from "../assets/logoRam5.png";
+
 
 function NavBar() {
   const [navColour, setNavColour] = useState(false);
@@ -37,7 +37,7 @@ function NavBar() {
   <div className="container mx-auto flex items-center justify-between px-8 py-4">
     {/* Logo */}
     <Link to="/" className="flex items-center">
-      <img src={logoRam4} alt="logo" className="h-14 w-auto rounded-full" />
+      <img src="/logoRam5.png" alt="logo" className="h-14 w-auto rounded-full" />
     </Link>
 
     {/* Mobile toggle button */}

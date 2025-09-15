@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logoRam from "../assets/logoRam2.png"
+
 function Pre({ load }) {
   const stars = Array.from({ length: 100 });
   const [dots, setDots] = useState(0);
@@ -114,7 +114,7 @@ function Pre({ load }) {
             <div className="text-white text-4xl font-bold bg-gradient-to-br from-purple-500 to-blue-400 p-5 rounded-full">
               {/* Replace this section with your logo */}
 <img 
-  src={logoRam} 
+  src="/logoRam2.png"
   alt="Ram Logo" 
   className="w-full h-full rounded-full object-contain"
 />
