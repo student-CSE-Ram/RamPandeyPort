@@ -2,7 +2,8 @@ import React from "react";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
-import laptopImg from "/src/Assets/about.png";
+import laptopImg from "../../Assets/about.png";
+
 
 function About() {
   return (
