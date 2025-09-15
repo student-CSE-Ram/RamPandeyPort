@@ -2,7 +2,6 @@ import React from "react";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
-import laptopImg from "../../Assets/about.png";
 
 
 function About() {
@@ -49,7 +48,7 @@ function About() {
           {/* Right Column - Bigger Image */}
           <div className="md:w-5/12 flex justify-center md:justify-end mt-6 md:mt-0">
             <img
-              src={laptopImg}
+              src="/about.png"
               alt="about"
               className="w-80 md:w-[450px] max-w-full rounded-lg shadow-lg"
             />
